@@ -1,0 +1,44 @@
+---
+// src/layouts/Layout.astro
+import Navbar from '../components/ui/navbar';
+import Footer from '../components/ui/footer';
+import '../styles/global.css';
+---
+
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+    <title>My Portfolio</title>
+  </head>
+  <body class="min-h-screen bg-background font-sans antialiased">
+    <div id="root">
+      <Navbar client:load />
+      <main>
+        <slot />
+      </main>
+      <Footer client:load />
+    </div>
+
+    <script>
+      // Inisialisasi Lenis untuk smooth scroll
+      import Lenis from 'lenis';
+
+      const lenis = new Lenis({
+        duration: 1.2,
+        easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+        orientation: 'vertical',
+        smoothWheel: true,
+      });
+
+      function raf(time) {
+        lenis.raf(time);
+        requestAnimationFrame(raf);
+      }
+
+      requestAnimationFrame(raf);
+    </script>
+  </body>
+</html>

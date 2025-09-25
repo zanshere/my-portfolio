@@ -1,0 +1,16 @@
+---
+import Layout from "../layouts/Layout.astro";
+import HomeSection from "../components/sections/HomeSection";
+import AboutSection from "../components/sections/AboutSection";
+import SkillSection from "../components/sections/SkillSection";
+import ProjectSection from "../components/sections/ProjectSection";
+import ContactSection from "../components/sections/ContactSection";
+---
+
+<Layout>
+  <HomeSection client:load />
+  <AboutSection client:load />
+  <SkillSection client:load />
+  <ProjectSection client:load />
+  <ContactSection client:load />
+</Layout>
