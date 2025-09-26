@@ -8,24 +8,24 @@ import { gsap } from "gsap";
 
 const projects = [
   {
-    title: "FarmFresh E-Commerce",
-    desc: "Full-stack marketplace untuk petani lokal menjual produk segar dengan fitur real-time chat dan payment gateway 🍅",
-    tech: ["React", "Node.js", "MongoDB", "Express"],
-    github: "https://github.com/yourusername/farmfresh",
+    title: "Fajar World Fantasy",
+    desc: "Website kebun binatang yang dibuat dengan Laravel 12",
+    tech: ["Laravel", "MySQL", "TailwindCSS", "GSAP"],
+    github: "https://github.com/zanshere/fwf-projects.git",
     live: "https://farmfresh.demo",
   },
   {
-    title: "Portfolio Website",
-    desc: "High-performance portfolio website built with Astro, React, and TailwindCSS featuring smooth animations and SEO optimization.",
-    tech: ["Astro", "React", "TailwindCSS", "GSAP"],
-    github: "https://github.com/yourusername/portfolio",
+    title: "Jadoel Food",
+    desc: "Website makanan yang dibuat dengan PHP Native, menawarkan aneka makanan yang dapat dipesan secara langsung melalui website dan menampilkan stok makanan secara real-time",
+    tech: ["PHP", "MySQL", "TailwindCSS", "SweetAlert2"],
+    github: "https://github.com/zanshere/jadoel-food.git",
     live: "https://yourportfolio.com",
   },
   {
     title: "WhatsApp Business Bot",
     desc: "Advanced WhatsApp Bot dengan TypeScript & Baileys library, featuring AI integration and multi-language support.",
     tech: ["TypeScript", "Node.js", "Baileys", "AI"],
-    github: "https://github.com/yourusername/whatsapp-bot",
+    github: "https://github.com/zanshere/whatsapp-bot",
     live: "#",
   },
 ];
