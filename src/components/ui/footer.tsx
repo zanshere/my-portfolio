@@ -5,13 +5,13 @@ export const Footer: React.FC = () => {
   const socialLinks = [
     { 
       name: 'Instagram', 
-      href: 'https://instagram.com/yourusername', 
+      href: 'https://instagram.com/zanshere_/', 
       icon: Instagram,
       color: 'hover:bg-gradient-to-r hover:from-pink-500 hover:to-orange-500'
     },
     { 
       name: 'GitHub', 
-      href: 'https://github.com/yourusername', 
+      href: 'https://github.com/zanshere', 
       icon: Github,
       color: 'hover:bg-gradient-to-r hover:from-gray-600 hover:to-gray-800'
     },
@@ -121,7 +121,7 @@ export const Footer: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col sm:flex-row justify-between items-center">
             <p className="text-muted-foreground text-sm mb-2 sm:mb-0 flex items-center">
-              © 2024 Ryuzen. Made with <Heart size={14} className="mx-1 text-red-500" /> using Astro & React
+              © 2024 Muhammad Fauzan. Made with <Heart size={14} className="mx-1 text-red-500" /> using Astro & React
             </p>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-muted-foreground hover:text-foreground transition-colors duration-200">
