@@ -8,6 +8,7 @@ import { Send, Mail, Phone, MapPin } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 
+
 export default function ContactSection() {
   const sectionRef = useRef<HTMLDivElement | null>(null);
   const [formData, setFormData] = useState({
@@ -113,7 +114,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-semibold">Email</h4>
-                    <p className="text-muted-foreground">your.email@domain.com</p>
+                    <p className="text-muted-foreground">strangersxyz@proton.me</p>
                   </div>
                 </div>
                 
@@ -123,7 +124,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-semibold">Phone</h4>
-                    <p className="text-muted-foreground">+62 812-3456-7890</p>
+                    <p className="text-muted-foreground">+62 851-2365-8885</p>
                   </div>
                 </div>
                 
