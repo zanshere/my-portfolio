@@ -66,7 +66,7 @@ export const Navbar: React.FC = () => {
                 }}
                 className="text-2xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent"
               >
-                Ryuzen
+                MF Portfolio
               </a>
             </div>
 
